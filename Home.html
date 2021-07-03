@@ -10,43 +10,85 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
 </head>
 
-<body class="bg-gradient-to-r from-purple-400 to-blue-300 ">
+<body class="= select-none bg-fixed" style="background-image: url(image/bg.png)">
 
   <!-- navbar -->
   <div class="flex justify-evenly mx-auto">
-
     <a href="Home.html"><button
-        class="transition duration-500 ease-in-out bg-indigo-500 hover:bg-red-600 hover:text-white transform hover:-translate-y-1 hover:scale-110 rounded-lg  p-4 m-8 cursor-pointer shadow-lg">
+        class="transition duration-500 ease-in-out bg-indigo-400 hover:bg-red-600 hover:text-white transform hover:-translate-y-1 hover:scale-110 rounded-lg  p-4 m-8 cursor-pointer shadow-lg">
         <p style="font-family: Sofia, sans-serif" class="text-4xl"> Home </p>
       </button></a>
 
     <a href="Experience.html"><button
-        class="transition duration-500 ease-in-out bg-indigo-500 hover:bg-red-600 hover:text-white transform hover:-translate-y-1 hover:scale-110 rounded-lg  p-4 m-8 cursor-pointer shadow-lg">
+        class="transition duration-500 ease-in-out bg-indigo-400 hover:bg-red-600 hover:text-white transform hover:-translate-y-1 hover:scale-110 rounded-lg  p-4 m-8 cursor-pointer shadow-lg">
         <p style="font-family: Sofia, sans-serif" class="text-4xl"> Experience </p>
       </button></a>
 
     <a href="Contact.html"><button
-        class="transition duration-500 ease-in-out bg-indigo-500 hover:bg-red-600 hover:text-white transform hover:-translate-y-1 hover:scale-110 rounded-lg  p-4 m-8 cursor-pointer shadow-lg">
+        class="transition duration-500 ease-in-out bg-indigo-400 hover:bg-red-600 hover:text-white transform hover:-translate-y-1 hover:scale-110 rounded-lg  p-4 m-8 cursor-pointer shadow-lg">
         <p style="font-family: Sofia, sans-serif" class="text-4xl"> Contact </p>
       </button></a>
-
   </div>
 
   <!-- profile -->
-
-  <div class="flex">
-    <img class="ml-10 rounded shadow-2xl" src="image/profile.jpg" width="250">
-    <div class="bg-white rounded-xl mx-10 p-10 shadow-xl flex-auto opacity-75">
-      <p class="text-6xl select-none" style="font-family: Freestyle Script Regular ">Lalinthorn Pholnaruk</p>
-      <p class="select-none font-serif">Hello! My name is Lalinthorn. I am currently studying Computer Engineering at
-      Chiang Mai University. I'm interested in
+  <div class="mx-auto bg-white rounded-xl shadow-2xl flex max-w-5xl mt-8">
+    <img class="flex-shrink-0 rounded-l-xl" src="image/profile.jpg" width="350" height="350">
+    <div class="p-8">
+      <br>
+      <p class="font-serif text-gray-400">Hello! My name is</p><br>
+      <p class="text-6xl tracking-wide text-red-700" style="font-family: Freestyle Script Regular ">Lalinthorn Pholnaruk
+      </p><br>
+      <p class="font-serif">I am currently studying Computer Engineering at
+        Chiang Mai University.<br>
+        I like to design so I'm interested in Website development.<br>
+        After graduate I intend to apply for a master's degree program at Taiwan.
       </p>
     </div>
-
-
   </div>
 
+  <!-- skill -->
+  <div class="text-pink-300 bg-black p-4 mt-16 mb-8 mx-60 flex justify-center ">
+    <p style="font-family: Sofia, sans-serif " class="text-4xl"> My skill </p>
+  </div>
 
+  <div class="flex justify-evenly overflow-hidden ">
+    <div class="bg-purple-200 rounded-xl shadow-2xl mt-8 mb-16 p-8">
+      <p class="font-serif text-3xl flex justify-center">Language skills</p>
+      <img class="m-4" src="image/4277086.png" width="200">
+      <p class="font-serif lining-nums">TOEIC : 515/990<br> CMU-ePro : 63/100<br>Chines/korean/french/Japanese</p>
+    </div>
+
+    <div class="bg-indigo-200 rounded-xl shadow-2xl mt-8 mb-16 p-8">
+      <p class="font-serif text-3xl lex justify-center">Computer skills</p>
+      <img class="m-4 flex justify-center" src="image/com.png" width="200">
+      <li>c++</li>
+      <li>ui design</li>
+      <li>Photoshop</li>
+    </div>
+
+    <div class="bg-blue-200 rounded-xl shadow-2xl mt-8 mb-16 p-8">
+      <p class="font-serif text-3xl flex justify-center">Hobbies</p>
+      <img class="m-4" src="image/hobby.png" width="200">
+      <li>cooking</li>
+      <li>gaming</li>
+      <li>traveling</li>
+    </div>
+  </div>
+
+  <!-- copyright -->
+  <div class="bg-white p-8 pb-11
+   max-w-auto bg-opacity-50 text-gray-600 flex">
+    <p class="mr-auto">LALINTHORN © 2021 | privacy policy </p>
+    <a href="Home.html">
+      <p class="underline">HOME</p>
+    </a>
+    <a href="Experience.html">
+      <p class="mx-8">EXPERIENCE</p>
+    </a>
+    <a href="Contact.html">
+      <p class="mr-4">CONTACT</p>
+    </a>
+  </div>
 </body>
 
 </html>
