@@ -13,27 +13,32 @@
 <body class="= select-none bg-fixed" style="background-image: url(image/bg.png)">
 
   <!-- navbar -->
-  <div class="flex justify-evenly mx-auto">
+  <div class="max-w-auto mt-12 p-4 h-10 flex bg-no-repeat bg-cover" style="background-image: url(image/original.gif)">
+    <p class="pl-10 -mt-4 h-4 text-4xl text-white" style="font-family: Milky Rainbow Regular">My resume</p>
+  </div>
+  <div class="flex justify-evenly mx-auto ml-80 -mt-14">
     <a href="Home.html"><button
-        class="transition duration-500 ease-in-out bg-indigo-400 hover:bg-red-600 hover:text-white transform hover:-translate-y-1 hover:scale-110 rounded-lg  p-4 m-8 cursor-pointer shadow-lg">
+        class="transition duration-500 ease-in-out bg-indigo-400 hover:bg-red-600 hover:text-white transform hover:-translate-y-1 hover:scale-110 rounded-lg p-4 m-8 shadow-lg">
         <p style="font-family: Sofia, sans-serif" class="text-4xl"> Home </p>
       </button></a>
 
     <a href="Experience.html"><button
-        class="transition duration-500 ease-in-out bg-indigo-400 hover:bg-red-600 hover:text-white transform hover:-translate-y-1 hover:scale-110 rounded-lg  p-4 m-8 cursor-pointer shadow-lg">
+        class="transition duration-500 ease-in-out bg-indigo-400 hover:bg-red-600 hover:text-white transform hover:-translate-y-1 hover:scale-110 rounded-lg p-4 m-8 shadow-lg">
         <p style="font-family: Sofia, sans-serif" class="text-4xl"> Experience </p>
       </button></a>
 
     <a href="Contact.html"><button
-        class="transition duration-500 ease-in-out bg-indigo-400 hover:bg-red-600 hover:text-white transform hover:-translate-y-1 hover:scale-110 rounded-lg  p-4 m-8 cursor-pointer shadow-lg">
+        class="transition duration-500 ease-in-out bg-red-600 text-white hover:text-black transform -translate-y-1 scale-110 rounded-lg p-4 shadow-lg">
         <p style="font-family: Sofia, sans-serif" class="text-4xl"> Contact </p>
       </button></a>
   </div>
 
   <!-- main -->
   <div class="h-90 max-w-auto p-6 flex" style="background-image: url(image/cover.gif)">
-    <img class=" flex justify-center rounded-full ml-40" src="image/cont.PNG" width="300">
-    <p class="pt-32 pl-32">About me</p>
+    <img
+      class="opacity-80 hover:opacity-100 flex justify-center rounded-full ml-40 transition transform hover:scale-125"
+      src="image/cont.PNG" width="300">
+    <p class="pt-28 pl-32 text-6xl text-white animate-pulse" style="font-family: Milky Rainbow Regular">About me</p>
   </div>
 
   <div class="mx-auto flex max-w-xl mt-8 mb-4 pl-1 border-b-2">
@@ -42,19 +47,27 @@
   </div>
   <div class="mx-auto flex max-w-xl mb-4 p-1 border-b-2">
     <img class="flex-shrink-0 " src="image/email.png" width="50">
-    <p class="text-xl mt-3 ml-4">lalinthorn_p@cmu.ac.th</p>
+    <p class="text-xl mt-3 ml-4 hover:text-white ">
+      <a href="mailto:lalinthorn_p@cmu.ac.th">lalinthorn_p@cmu.ac.th</a>
+    </p>
   </div>
   <div class="mx-auto flex max-w-xl mb-4 p-1 border-b-2">
     <img class="flex-shrink-0 " src="image/facebook.png" width="50">
-    <p class="text-xl mt-3 ml-4">Lalinthorn Pholnaruk</p>
+    <a href="https://web.facebook.com/LP.Pye/" target="_blank">
+      <p class="text-xl mt-3 ml-4  hover:text-white">Lalinthorn Pholnaruk</p>
+    </a>
   </div>
   <div class="mx-auto flex max-w-xl mb-4 p-1 border-b-2">
     <img class="flex-shrink-0 " src="image/instagram.png" width="50">
-    <p class="text-xl mt-3 ml-4">lalinnxn</p>
+    <a href="https://www.instagram.com/lalinnxn/" target="_blank">
+      <p class="text-xl mt-3 ml-4  hover:text-white">lalinnxn</p>
+    </a>
   </div>
   <div class="mx-auto flex max-w-xl mb-10 p-1 border-b-2">
     <img class="flex-shrink-0 " src="image/map.png" width="50">
-    <p class="text-xl mt-3 ml-4">kittikarn plus chiang mai</p>
+    <a href="https://goo.gl/maps/9bRrPknuxFXXRb818" target="_blank">
+      <p class="text-xl mt-3 ml-4  hover:text-white">kittikarn plus Chiang Mai</p>
+    </a>
   </div>
 
 
